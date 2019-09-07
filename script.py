@@ -16,9 +16,9 @@ mappings = {
 
 f = open('./data.json', 'r')
 squares = json.loads(f.read())
-init_date = date(2018, 2, 4);
+init_date = date(2019, 9, 8);
 moving_date = init_date
-end_date = date(2017, 3, 16);
+end_date = date(2020, 9, 5);
 for week in squares:
   week = week[::-1]
   for day in week:
